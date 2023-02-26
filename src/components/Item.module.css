@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem;
+  font-size: 1.8rem;
+}
+.info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remove {
+  background-color: white;
+  border: none;
+  font-size: 2rem;
+  color: blue;
+}
+
+.remove:hover {
+  cursor: pointer;
+}
+.arrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.icons {
+  cursor: pointer;
+}

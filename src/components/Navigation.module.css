@@ -1,0 +1,32 @@
+.navigation {
+  background-color: rgb(78, 151, 175);
+  padding: 2rem 4rem;
+}
+.navigation div {
+  display: flex;
+  justify-content: space-between;
+  max-width: 80rem;
+  margin: 0 auto;
+}
+.heading {
+  font-size: 3.2rem;
+  color: white;
+}
+.bag {
+  font-size: 3rem;
+}
+.btn {
+  position: relative;
+  background-color: rgb(78, 151, 175);
+  border: none;
+}
+.items {
+  position: absolute;
+  top: -1rem;
+  color: white;
+  background-color: blue;
+  border-radius: 50%;
+  padding: 5px 1rem;
+  right: -2rem;
+  font-size: 2rem;
+}

@@ -1,0 +1,25 @@
+.main {
+  max-width: 80rem;
+  flex-direction: column;
+  display: flex;
+  gap: 2rem;
+
+  margin: 4rem auto;
+}
+
+.heading {
+  font-size: 4.8rem;
+  align-self: center;
+}
+.btn {
+  align-self: center;
+  padding: 1rem 2rem;
+  background-color: brown;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(82, 22, 22);
+}
